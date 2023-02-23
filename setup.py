@@ -16,5 +16,3 @@ setuptools.setup(
     packages=['toolbox'],
     install_requires=['requests'],
 )
-
-pip install git+
