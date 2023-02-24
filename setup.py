@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='toolbox',
     version='0.0.3',
-    author='Mike Huls',
+    author='Ujjawal',
     author_email='ujjawalojha@gmail.com',
     description='custom logging file',
     long_description=long_description,
@@ -14,5 +14,6 @@ setuptools.setup(
     url='https://github.com/ujjawalontop2/toolbox',
     license='MIT',
     packages=['toolbox'],
-    install_requires=['requests'],
+    install_requires=['Python==3.8.10'],
+    zip_safe=False
 )
